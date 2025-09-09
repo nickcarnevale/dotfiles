@@ -18,3 +18,5 @@ parse_git_branch() {
 # Prompt with colored path
 PROMPT='%{$fg[magenta]%}%~%{$reset_color%}$(parse_git_branch) %{$fg[cyan]%}%%%{$reset_color%} '
 
+alias gs="git status"
+alias gc="git commit -am"
